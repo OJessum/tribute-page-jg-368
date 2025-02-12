@@ -149,15 +149,16 @@ li {
   text-align: right;
 }
 
+.the-end {
+  background-color: #932b39;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
 .more-info {
   font-family: Kdam Thmor Pro;
   text-align: center;
   color: #eaeaea;
-}
-
-.the-end {
-  background-color: #932b39;
-  padding: 10px 0px;
 }
 
 a {
