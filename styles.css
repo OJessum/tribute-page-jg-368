@@ -1,0 +1,173 @@
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  background-color: #24205a;
+}
+
+main {
+  width: 54%;
+  margin: 0px auto;
+}
+
+h1 {
+  font-family: Kdam Thmor Pro;
+  font-size: 128px;
+  text-align: center;
+  color: #ffe677;
+  margin: 0px auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  margin: 0px auto;
+  border-radius: 10px;
+}
+
+#img-caption {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+p {
+  color: #eaeaea;
+  font-family: Smooch Sans;
+}
+
+.iconic {
+  background-color: #932b39;
+  padding: 10px 0px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#tribute-info {
+  font-size: 24px;
+  text-align: center;
+  font-family: Kdam Thmor Pro;
+  color: #ffe677;
+}
+
+span {
+  display: block;
+  margin-bottom: 4px;
+}
+
+li {
+  font-family: Smooch Sans;
+  font-size: 20px;
+  color: #eaeaea;
+  margin-top: px;
+  margin-bottom: 20px;
+  margin-right: 42px;
+  list-style-type: none;
+}
+
+.memory {
+  font-family: Kdam Thmor Pro;
+}
+
+.quote {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: Kdam Thmor Pro;
+  font-size: 36px;
+  color: #ffe677;
+  text-align: right;
+}
+
+.more-info {
+  font-family: Kdam Thmor Pro;
+  text-align: center;
+  color: #eaeaea;
+}
+
+.the-end {
+  background-color: #932b39;
+  padding: 10px 0px;
+}
+
+a {
+  color: #ffe677;
+}
+
+a:active {
+    color:#ffe677;
+}
+
+a:hover {
+  color: #eaeaea;
+}
